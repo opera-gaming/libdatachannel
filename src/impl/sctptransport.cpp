@@ -228,7 +228,7 @@ SctpTransport::SctpTransport(shared_ptr<Transport> lower, const Configuration &c
 #if USE_PMTUD
 	if (!config.mtu.has_value()) {
 #else
-	if (false) {
+        if (/* DISABLES CODE */ (false)) {
 #endif
 		// Enable SCTP path MTU discovery
 		spp.spp_flags |= SPP_PMTUD_ENABLE;
