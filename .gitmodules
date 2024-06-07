@@ -11,7 +11,7 @@
 	url = https://github.com/paullouisageneau/libjuice.git
 [submodule "deps/json"]
 	path = deps/json
-	url = https://github.com/nlohmann/json.git
+	url = https://github.com/opera-gaming/json.git
 	shallow = true
 [submodule "deps/libsrtp"]
 	path = deps/libsrtp
